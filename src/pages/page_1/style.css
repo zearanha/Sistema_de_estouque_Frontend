@@ -1,0 +1,49 @@
+:root {
+  --color1: #9bcb34;
+  --color2: #cee5a1;
+  --color3: #a90644;
+  --color4: #a46454;
+  --color5: #c696a8;
+  --color6: #d9d9d9; 
+}
+
+#container{
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  width: 100vw;
+}
+
+#menu{
+  display: flex;
+  flex-direction: column;
+  padding: 10px 20px 10px 5px;
+  background-color: var(--color1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+  border-radius: 0px 4px 0 4px;
+
+  
+
+  .button:hover{
+    background-color: var(--color4);
+  } 
+
+}
+
+#listProducts{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+
+
+.imgLogo{
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+}
+
